@@ -2,7 +2,7 @@ import { icons } from '@/constants/icons';
 import { images } from '@/constants/images';
 import { Tabs } from 'expo-router';
 import React from 'react';
-import { View, Text, StyleSheet, ImageBackground, Image } from 'react-native';
+import { View, Text, StyleSheet, ImageBackground, Image,  } from 'react-native';
 
 const _layout = () => {
 
@@ -16,6 +16,9 @@ const _layout = () => {
       );
     } 
     return (
+       
+    
+
       <View className='size-full justify-center items-center mt-4 rounded-full'>
         <Image source={icon} tintColor="#A8B5DB" className='size-5' />
       </View>
